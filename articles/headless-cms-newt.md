@@ -30,14 +30,14 @@ Newt で記事を作成し API で取得できるようにするため、まず�
 
 App UID の`corporate-website`は後で記事を取得する際に必要になるので、控えておきます。
 
-![newt app](/images/headless-cms-newt/newt-app.png)
+![newt app](/images/articles/headless-cms-newt/newt-app.png)
 
 ### モデルの作成
 
 次にモデルを作成します。わかりやすいようにモデル名は「Article」としました。
 モデル UID の`article`は後で記事を取得する際に必要になるので、控えておきます。
 
-![newt model](/images/headless-cms-newt/newt-model.png)
+![newt model](/images/articles/headless-cms-newt/newt-model.png)
 
 続いて、App 設定の画面内で、ニュース記事に合わせてフィールドを作成していきます。
 
@@ -64,7 +64,7 @@ App UID の`corporate-website`は後で記事を取得する際に必要にな�
 
    これで以下のカスタムフィールドタイプが作成できました。
 
-   ![newt custom field type](/images/headless-cms-newt/newt-custom-field-type.png)
+   ![newt custom field type](/images/articles/headless-cms-newt/newt-custom-field-type.png)
 
    最後に、作成したカスタムフィールドタイプを選択し、情報を入力してモデルにフィールドを追加します。
 
